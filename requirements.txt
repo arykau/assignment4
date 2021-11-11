@@ -1,0 +1,7 @@
+Web page should provide input text field and receive coin name
+Once coin name is provided and pressed CHECK button, web page should display list of paragraphs
+Store parsed news and blogs from Assignment 2 into the database
+Web server should provide at least 1 route
+Receive as input coin name
+/coin
+
