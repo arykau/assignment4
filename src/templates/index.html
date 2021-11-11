@@ -1,0 +1,24 @@
+{% block head %}
+  <title>Coin</title>    
+{% endblock %}
+{% block body %}
+<center>
+  <form method="post" action="/coin">
+    <input type="text" name="name" style="width: 400px; height: 40px; font-size: 35px;">
+    <input type="submit" value="Check" style="with: 200px; height: 40px; font-size: 35px;" >
+  </form><br><br>
+  <div class="main">
+    <p style="font-size: 35px;">{{ data }}</p>
+  </div>
+</center>
+  <style>
+    .main{
+      width: 1000px;
+      margin-top: 50px;
+    }
+    body{
+      margin-left: 100px;
+      margin-top: 100px;
+    }
+  </style>
+{% endblock %}
