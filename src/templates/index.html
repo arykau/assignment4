@@ -1,6 +1,7 @@
 {% block head %}
   <title>Coin</title>    
 {% endblock %}
+
 {% block body %}
 <center>
   <form method="post" action="/coin">
@@ -11,7 +12,9 @@
     <p style="font-size: 35px;">{{ data }}</p>
   </div>
 </center>
-  <style>
+{% endblock %}
+
+<style>
     .main{
       width: 1000px;
       margin-top: 50px;
@@ -21,4 +24,3 @@
       margin-top: 100px;
     }
   </style>
-{% endblock %}
